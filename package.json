@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npx http-server ./app"
+    "clean": "rm -rf ./app/dist",
+    "build": "npx tsc",
+    "server": "npx http-server ./app",
+    "all": "npm run clean && npm run build && npm run server"
   },
   "repository": {
     "type": "git",
