@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx http-server ./app"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/fraune/ts-project#readme",
   "devDependencies": {
+    "http-server": "^0.12.3",
     "typescript": "^4.1.3"
-  }
+  },
+  "dependencies": {}
 }
